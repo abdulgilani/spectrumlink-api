@@ -1,5 +1,6 @@
 [
     {
+        "id": "6be619d5-de2c-4f62-ac1b-bd2e36d71ab9",
         "name": "Alex Johnson",
         "email": "alex.johnson@example.com",
         "password": "$2b$12$7qV8tFhB1mQ57f4jzVkCH.vB2SfK5/sMQOlG/9Sk7hMynNknNdJ9a",
@@ -10,6 +11,7 @@
         "photo": "https://randomuser.me/api/portraits/men/1.jpg"
       },
       {
+        "id": "8cbf5a70-6cb8-4cce-a4c2-4cde4f84c513",
         "name": "Rachel Green",
         "email": "rachel.green@example.com",
         "password": "$2b$12$ck.YEfglxV52TGo6Tl5N0OBr67AkmNo5ks5unWFPXibJ9xvCjwe7G",
@@ -20,6 +22,7 @@
         "photo": "https://randomuser.me/api/portraits/women/4.jpg"
       },
       {
+        "id": "beffcc61-7d93-47f7-9938-5f0df5ef3bea",
         "name": "Liam O'Connor",
         "email": "liam.oconnor@example.com",
         "password": "$2b$12$jFek0RL50/nTRCn4.f9NVOD58oMLAIjG.eo54jjLt4PEqlWWgDQ52",
