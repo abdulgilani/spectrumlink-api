@@ -1,0 +1,32 @@
+[
+    {
+        "id": "8f86c7f4-bd18-4e4a-9328-a54a189dd5ba",
+        "name": "Samantha Lee",
+        "email": "samantha.lee@example.com",
+        "neurodivergent_disorders": ["Autism Spectrum Disorder"],
+        "description": "Software engineer with a focus on backend systems. I enjoy coding and find peace in solving logical puzzles.",
+        "occupation": "Software Engineer",
+        "location": { "latitude": 37.774929, "longitude": -122.419418 },
+        "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+        "id": "8cbf5a70-6cb8-4cce-a4c2-4cde4f84c513",
+        "name": "Rachel Green",
+        "email": "rachel.green@example.com",
+        "neurodivergent_disorders": ["OCD"],
+        "description": "Aspiring researcher in environmental science with a keen eye for detail. Passionate about preserving our natural resources.",
+        "occupation": "Research Scientist",
+        "location": { "latitude": 48.856613, "longitude": 2.352222 },
+        "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+        "id": "9d8e239c-3953-4822-83f2-ccdd98b8c5e6",
+        "name": "Priya Sharma",
+        "email": "priya.sharma@example.com",
+        "neurodivergent_disorders": ["Autism Spectrum Disorder"],
+        "description": "Freelance writer and editor focusing on storytelling and advocacy for neurodivergent voices. Enjoy long walks and coffee chats.",
+        "occupation": "Freelance Writer",
+        "location": { "latitude": 28.613939, "longitude": 77.209023 },
+        "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+    }
+]

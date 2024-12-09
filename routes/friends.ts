@@ -12,6 +12,10 @@ const readFriendsData = () => {
     return parsedFriendsData;
 };
 
+interface Friend {
+    id: string, 
+}
+
 // Get all friends
 router.get("/", (req, res) => {
     const friendsData = readFriendsData();
@@ -20,15 +24,18 @@ router.get("/", (req, res) => {
 
 
 // Get a single friend
-router.get(":/id", (req, res) => {
-    const friendsData = readFriendsData();
-    const { id : string } = req.params;
+router.get("/:id", (req, res) => {
+    const friendsData: Friend[] = readFriendsData();
+    const { id } = req.params;
 
-    const singleFriend = friendsData.find((friend) => friend.id === id);
+    const singleFriend = friendsData.find((friend: Friend) => friend.id === id);
 
     if(singleFriend){
         res.status(200).json(singleFriend);
     } else {
         res.status(404).json("Friend not found");
     }
-})
+});
+
+
+export default router;
