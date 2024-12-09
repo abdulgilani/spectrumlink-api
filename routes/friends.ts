@@ -23,19 +23,4 @@ router.get("/", (req, res) => {
 });
 
 
-// Get a single friend
-router.get("/:id", (req, res) => {
-    const friendsData: Friend[] = readFriendsData();
-    const { id } = req.params;
-
-    const singleFriend = friendsData.find((friend: Friend) => friend.id === id);
-
-    if(singleFriend){
-        res.status(200).json(singleFriend);
-    } else {
-        res.status(404).json("Friend not found");
-    }
-});
-
-
 export default router;
