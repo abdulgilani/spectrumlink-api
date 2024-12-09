@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "password": "$2b$12$7qV8tFhB1mQ57f4jzVkCH.vB2SfK5/sMQOlG/9Sk7hMynNknNdJ9a",
+        "neurodivergent_disorders": ["ADHD"],
+        "description": "Creative graphic designer who finds unique ways to see the world. I love working on art projects and helping others see through new perspectives.",
+        "occupation": "Graphic Designer",
+        "location": { "latitude": 40.712776, "longitude": -74.005974 },
+        "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      {
+        "name": "Rachel Green",
+        "email": "rachel.green@example.com",
+        "password": "$2b$12$ck.YEfglxV52TGo6Tl5N0OBr67AkmNo5ks5unWFPXibJ9xvCjwe7G",
+        "neurodivergent_disorders": ["OCD"],
+        "description": "Aspiring researcher in environmental science with a keen eye for detail. Passionate about preserving our natural resources.",
+        "occupation": "Research Scientist",
+        "location": { "latitude": 48.856613, "longitude": 2.352222 },
+        "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "name": "Liam O'Connor",
+        "email": "liam.oconnor@example.com",
+        "password": "$2b$12$jFek0RL50/nTRCn4.f9NVOD58oMLAIjG.eo54jjLt4PEqlWWgDQ52",
+        "neurodivergent_disorders": ["Autism Spectrum Disorder", "Social Anxiety"],
+        "description": "Part-time barista and volunteer at community gardens. I find joy in working with plants and learning about their role in our ecosystem.",
+        "occupation": "Barista",
+        "location": { "latitude": -37.813629, "longitude": 144.963058 },
+        "photo": "https://randomuser.me/api/portraits/men/10.jpg"
+      }
+]

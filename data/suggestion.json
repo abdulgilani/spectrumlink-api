@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "neurodivergent_disorders": ["ADHD"],
+      "description": "Creative graphic designer who finds unique ways to see the world. I love working on art projects and helping others see through new perspectives.",
+      "occupation": "Graphic Designer",
+      "location": { "latitude": 40.712776, "longitude": -74.005974 },
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "name": "Samantha Lee",
+      "email": "samantha.lee@example.com",
+      "neurodivergent_disorders": ["Autism Spectrum Disorder"],
+      "description": "Software engineer with a focus on backend systems. I enjoy coding and find peace in solving logical puzzles.",
+      "occupation": "Software Engineer",
+      "location": { "latitude": 37.774929, "longitude": -122.419418 },
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "name": "Michael Chen",
+      "email": "michael.chen@example.com",
+      "neurodivergent_disorders": ["Dyslexia"],
+      "description": "Entrepreneur and small business owner. I specialize in public speaking and building communities for local growth.",
+      "occupation": "Entrepreneur",
+      "location": { "latitude": 51.507351, "longitude": -0.127758 },
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "name": "Rachel Green",
+      "email": "rachel.green@example.com",
+      "neurodivergent_disorders": ["OCD"],
+      "description": "Aspiring researcher in environmental science with a keen eye for detail. Passionate about preserving our natural resources.",
+      "occupation": "Research Scientist",
+      "location": { "latitude": 48.856613, "longitude": 2.352222 },
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "neurodivergent_disorders": ["ADHD", "Dyscalculia"],
+      "description": "High school teacher who thrives on engaging students through innovative learning techniques. Big advocate for neurodiversity.",
+      "occupation": "Teacher",
+      "location": { "latitude": 34.052235, "longitude": -118.243683 },
+      "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "neurodivergent_disorders": ["Autism Spectrum Disorder"],
+      "description": "Freelance writer and editor focusing on storytelling and advocacy for neurodivergent voices. Enjoy long walks and coffee chats.",
+      "occupation": "Freelance Writer",
+      "location": { "latitude": 28.613939, "longitude": 77.209023 },
+      "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "name": "Oliver Smith",
+      "email": "oliver.smith@example.com",
+      "neurodivergent_disorders": ["Tourette Syndrome"],
+      "description": "Full-time student majoring in psychology. My goal is to help others like me better understand their neurodivergence.",
+      "occupation": "Student",
+      "location": { "latitude": 52.520008, "longitude": 13.404954 },
+      "photo": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "name": "Nora Martinez",
+      "email": "nora.martinez@example.com",
+      "neurodivergent_disorders": ["Anxiety"],
+      "description": "Therapist and mental health advocate. I provide counseling services and support groups for neurodivergent individuals.",
+      "occupation": "Therapist",
+      "location": { "latitude": 41.878113, "longitude": -87.629799 },
+      "photo": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "name": "Emily Thompson",
+      "email": "emily.thompson@example.com",
+      "neurodivergent_disorders": ["Dysgraphia"],
+      "description": "Illustrator and visual artist focusing on comic storytelling. I use visuals to express thoughts I can't put into words.",
+      "occupation": "Illustrator",
+      "location": { "latitude": 35.689487, "longitude": 139.691711 },
+      "photo": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "name": "Liam O'Connor",
+      "email": "liam.oconnor@example.com",
+      "neurodivergent_disorders": ["Autism Spectrum Disorder", "Social Anxiety"],
+      "description": "Part-time barista and volunteer at community gardens. I find joy in working with plants and learning about their role in our ecosystem.",
+      "occupation": "Barista",
+      "location": { "latitude": -37.813629, "longitude": 144.963058 },
+      "photo": "https://randomuser.me/api/portraits/men/10.jpg"
+    }
+  ]
+  
