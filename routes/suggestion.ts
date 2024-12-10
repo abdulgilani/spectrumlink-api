@@ -15,14 +15,14 @@ interface Suggestion {
     id: string, 
 }
 
-// Get all friends
+// Get all suggestions
 router.get("/", (req, res) => {
     const suggestionData = readSuggestionData();
     res.status(200).json(suggestionData);
 });
 
 
-// Get a single friend
+// Get a single suggestion
 router.get("/:id", (req, res) => {
     const suggestionData: Suggestion [] = readSuggestionData();
     const { id } = req.params;
@@ -34,6 +34,18 @@ router.get("/:id", (req, res) => {
     } else {
         res.status(404).json("Suggestion not found");
     }
+});
+
+// Delete a suggestion 
+router.delete("/:id", (req, res) => {
+    const suggestionData: Suggestion [] = readSuggestionData();
+    const { id } = req.params;
+
+    const newSuggestions : Suggestion[] = suggestionData.filter((suggestion: Suggestion) => suggestion.id !== id);
+
+    fs.writeFileSync(suggestionPath, JSON.stringify(newSuggestions));
+
+    res.status(200).json(newSuggestions);
 });
 
 
