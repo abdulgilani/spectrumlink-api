@@ -1,3 +1,13 @@
 [
-  
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440001",
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "password": "$2b$12$7qV8tFhB1mQ57f4jzVkCH.vB2SfK5/sMQOlG/9Sk7hMynNknNdJ9a",
+        "neurodivergent_disorders": ["ADHD", "Autism Spectrum Disorder"],
+        "description": "Creative graphic designer who finds unique ways to see the world. I love working on art projects and helping others see through new perspectives.",
+        "occupation": "Graphic Designer",
+        "location": { "latitude": 40.712776, "longitude": -74.005974 },
+        "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+      }   
 ]

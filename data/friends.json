@@ -1,24 +1,13 @@
 [
-  {
-    "id": "0e776826-318b-4130-b2fd-bd1bf292713d",
-    "name": "Liam O'Connor",
-    "email": "liam.oconnor@example.com",
-    "neurodivergent_disorders": ["Autism Spectrum Disorder", "Social Anxiety"],
-    "description": "Part-time barista and volunteer at community gardens. I find joy in working with plants and learning about their role in our ecosystem.",
-    "occupation": "Barista",
-    "location": { "latitude": -37.813629, "longitude": 144.963058 },
-    "photo": "https://randomuser.me/api/portraits/men/10.jpg"
-  },
-  {
-    "id": "550e8400-e29b-41d4-a716-446655440006",
-    "name": "Priya Sharma",
-    "email": "priya.sharma@example.com",
-    "password": "$2b$12$Xhg2FmCVsLQUNUJ9d/zJfuHjY3aP5VGo1bm2ILP7wnZ55ALmbkPOO",
-    "neurodivergent_disorders": ["Autism Spectrum Disorder"],
-    "description": "Freelance writer and editor focusing on storytelling and advocacy for neurodivergent voices. Enjoy long walks and coffee chats.",
-    "occupation": "Freelance Writer",
-    "location": { "latitude": 28.613939, "longitude": 77.209023 },
-    "photo": "https://randomuser.me/api/portraits/women/6.jpg"
-  }
-
+    {
+        "id": "550e8400-e29b-41d4-a716-446655440007",
+        "name": "Oliver Smith",
+        "email": "oliver.smith@example.com",
+        "password": "$2b$12$WnkF0TzTnnFq4IHX26Z6SO9x./h6Y5n1YUL7PIug.n8VweWgiKwmS",
+        "neurodivergent_disorders": ["Tourette Syndrome", "Autism Spectrum Disorder"],
+        "description": "Full-time student majoring in psychology. My goal is to help others like me better understand their neurodivergence.",
+        "occupation": "Student",
+        "location": { "latitude": 52.520008, "longitude": 13.404954 },
+        "photo": "https://randomuser.me/api/portraits/men/7.jpg"
+    } 
 ]

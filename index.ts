@@ -21,5 +21,5 @@ app.use("/suggestion", suggestionList);
 app.use("/friendRequestList", friendRequestList);
 
 app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`);
+    console.log(`Listening on url http://localhost:${PORT}`);
 });
