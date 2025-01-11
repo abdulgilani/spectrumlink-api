@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tsx index.ts",
-    "knex": "ts-node ./node_modules/.bin/knex"
+    "knex": "npx tsx -r tsconfig-paths/register ./node_modules/knex/bin/cli.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "knex": "^3.1.0",
     "pg": "^8.13.1",
     "tsx": "^4.19.2",
     "uuid4": "^2.0.3"
@@ -31,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^8.18.1",
     "@typescript-eslint/parser": "^8.18.1",
     "eslint": "^9.17.0",
+    "knex": "^3.1.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.2"
