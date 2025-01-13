@@ -1,13 +1,13 @@
 [
     {
-        "id": "550e8400-e29b-41d4-a716-446655440007",
-        "name": "Oliver Smith",
-        "email": "oliver.smith@example.com",
-        "password": "$2b$12$WnkF0TzTnnFq4IHX26Z6SO9x./h6Y5n1YUL7PIug.n8VweWgiKwmS",
-        "neurodivergent_disorders": ["Tourette Syndrome", "Autism Spectrum Disorder"],
-        "description": "Full-time student majoring in psychology. My goal is to help others like me better understand their neurodivergence.",
-        "occupation": "Student",
-        "location": { "latitude": 52.520008, "longitude": 13.404954 },
-        "photo": "https://randomuser.me/api/portraits/men/7.jpg"
-    } 
+        "id": "550e8400-e29b-41d4-a716-446655440010",
+        "name": "Lily Clark",
+        "email": "lily.clark@example.com",
+        "password": "$2b$12$Ft3ABjqJwCZsIU4RENOQnoJ8fopF23pBuAklf8FBlgVnU2UeZ.bKO",
+        "neurodivergent_disorders": ["ADHD", "Dyslexia"],
+        "description": "Social worker dedicated to making the world a better place by supporting vulnerable communities.",
+        "occupation": "Social Worker",
+        "location": { "latitude": 47.606209, "longitude": -122.332069 },
+        "photo": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
 ]

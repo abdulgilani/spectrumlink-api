@@ -1,36 +1,35 @@
 [
-    {
-        "id": "550e8400-e29b-41d4-a716-446655440002",
-        "name": "Samantha Lee",
-        "email": "samantha.lee@example.com",
-        "password": "$2b$12$Dh5iFGIu6nX/bMTa26E.dudK8XtSuRcxExnqYZwnJ7pG.EVO3D8dC",
-        "neurodivergent_disorders": ["Autism Spectrum Disorder"],
-        "description": "Software engineer with a focus on backend systems. I enjoy coding and find peace in solving logical puzzles.",
-        "occupation": "Software Engineer",
-        "location": { "latitude": 37.774929, "longitude": -122.419418 },
-        "photo": "https://randomuser.me/api/portraits/women/2.jpg"
-      },
-      {
-        "id": "550e8400-e29b-41d4-a716-446655440006",
-        "name": "Priya Sharma",
-        "email": "priya.sharma@example.com",
-        "password": "$2b$12$Xhg2FmCVsLQUNUJ9d/zJfuHjY3aP5VGo1bm2ILP7wnZ55ALmbkPOO",
-        "neurodivergent_disorders": ["Autism Spectrum Disorder"],
-        "description": "Freelance writer and editor focusing on storytelling and advocacy for neurodivergent voices. Enjoy long walks and coffee chats.",
-        "occupation": "Freelance Writer",
-        "location": { "latitude": 28.613939, "longitude": 77.209023 },
-        "photo": "https://randomuser.me/api/portraits/women/6.jpg"
-      },
-    {
-        "id": "550e8400-e29b-41d4-a716-446655440010",
-        "name": "Liam O'Connor",
-        "email": "liam.oconnor@example.com",
-        "password": "$2b$12$jFek0RL50/nTRCn4.f9NVOD58oMLAIjG.eo54jjLt4PEqlWWgDQ52",
-        "neurodivergent_disorders": ["Autism Spectrum Disorder", "Social Anxiety"],
-        "description": "Part-time barista and volunteer at community gardens. I find joy in working with plants and learning about their role in our ecosystem.",
-        "occupation": "Barista",
-        "location": { "latitude": -37.813629, "longitude": 144.963058 },
-        "photo": "https://randomuser.me/api/portraits/men/10.jpg"
-      }
-    
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "name": "James Carter",
+    "email": "james.carter@example.com",
+    "password": "$2b$12$WnAef0p4O6tr/mxnFHDAduT3V6SYw.mPpi5CIUTBptD7tsXm6LyaK",
+    "neurodivergent_disorders": ["ADHD", "Autism Spectrum Disorder"],
+    "description": "Creative writer and blogger passionate about storytelling and exploring new ideas.",
+    "occupation": "Writer",
+    "location": { "latitude": 34.052235, "longitude": -118.243683 },
+    "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "name": "Emily Johnson",
+    "email": "emily.johnson@example.com",
+    "password": "$2b$12$FgRsftT/wG38N2u59WDdFOKwYuSKQ/DxmJeFxPUnFzXZFYlYJHh6m",
+    "neurodivergent_disorders": ["Dyslexia", "Autism Spectum Disorder"],
+    "description": "Graphic designer who loves creating visually appealing art and advocating for inclusive design.",
+    "occupation": "Graphic Designer",
+    "location": { "latitude": 40.712776, "longitude": -74.005974 },
+    "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "name": "Daniel Wilson",
+    "email": "daniel.wilson@example.com",
+    "password": "$2b$12$FtXQpI36A1HBrRWcs9kfOeu02QdRqc17z6nXAnwQW5Z5NaTx7UkZm",
+    "neurodivergent_disorders": ["Autism Spectrum Disorder","ADHD"],
+    "description": "Fitness coach and health advocate who enjoys helping others achieve their wellness goals.",
+    "occupation": "Fitness Coach",
+    "location": { "latitude": 29.760427, "longitude": -95.369804 },
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg"
+  }
 ]
