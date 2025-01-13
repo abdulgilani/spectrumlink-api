@@ -1,7 +1,7 @@
 import "dotenv/config";
 
-import neurodivergentList from "./route/neurodivergent";
-import friendsData from "./route/friends";
+import neurodivergentList from "./database/route/neurodivergent";
+import friendsData from "./database/route/friends";
 import cors from "cors";
 import express from "express";
 
@@ -17,5 +17,5 @@ app.use("/neurodivergent", neurodivergentList);
 app.use("/friends", friendsData);
 
 app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`);
+    console.log(`Listening on port http://localhost:${PORT}`);
 });

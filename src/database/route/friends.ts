@@ -1,5 +1,5 @@
 import initKnex from "knex";
-import configuration from "../database/knexfile";
+import configuration from "../knexfile";
 const knex = initKnex(configuration.development);
 import express from "express";
 const router = express.Router();
@@ -19,10 +19,12 @@ router.get("/:id", async(req, res) => {
     try{
         const { id } = req.params;
 
-        const friend = await knex("friends").where(id).first();
+        const friend = await knex("friends").where("friends.id", id).first();
 
         if(friend){
             res.status(200).json(friend);
+        } else {
+            res.status(400).json("Friend is not found.");
         }
     } catch (error) {
         res.status(400).json(`Error retrieving a friend: ${error}`);
