@@ -37,6 +37,6 @@ Ensure to have Git Bash installed if you are on Windows. Git Bash is on Mac by d
 7. In the terminal window, select the `˅` icon to open the terminal dropdown and click Git Bash.
 
 8. Type the following:
-   `npx tsx index.ts`
+   `npm run dev`
 
 9. Now go back to the client [here](https://github.com/abdulgilani/spectrumlink).
