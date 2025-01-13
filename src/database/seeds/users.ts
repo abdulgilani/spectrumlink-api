@@ -1,13 +1,13 @@
 import { Knex } from "knex";
+import friendsData from "../seeds-data/friends";
+import friendRequestsData from "../seeds-data/friendRequest";
+import suggestionData from "../seeds-data/suggestion";
 
 export async function seed(knex: Knex): Promise<void> {
-    // Deletes ALL existing entries
-    await knex("table_name").del();
-
-    // Inserts seed entries
-    await knex("table_name").insert([
-        { id: 1, colName: "rowValue1" },
-        { id: 2, colName: "rowValue2" },
-        { id: 3, colName: "rowValue3" }
-    ]);
+    await knex("suggestion").del();
+    await knex("friends").del();
+    await knex("friendRequest").del();
+    await knex("suggestion").insert(suggestionData);
+    await knex("friends").insert(friendsData);
+    await knex("friendRequest").insert(friendRequestsData);
 };
