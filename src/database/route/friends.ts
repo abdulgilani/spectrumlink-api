@@ -31,5 +31,10 @@ router.get("/:id", async(req, res) => {
     }
 });
 
+// Add a friend
+router.post("/", async(req, res) => {
+    
+});
+
 
 export default router;
