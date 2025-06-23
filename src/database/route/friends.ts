@@ -33,7 +33,28 @@ router.get("/:id", async(req, res) => {
 
 // Add a friend
 router.post("/", async(req, res) => {
-    
+    try{
+        const [ newFriendId ] = await knex('friends').insert(req.body);
+        const newFriend = await knex('friends')
+        .select('id', 
+            'name',
+            'email',
+            'password',
+            'neurodivergent_disorders',
+            'description',
+            'occupation',
+            'location',
+            'photo'
+        )
+        .where({id: newFriendId});
+
+        res.status(201).json(newFriend[0]);
+    } catch (error) {
+        res.status(500).json({
+            message: "Having trouble connecting you to that person",
+            error
+        })
+    }
 });
 
 
