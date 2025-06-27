@@ -1,13 +1,1 @@
-[
-  {
-    "id": "550e8400-e29b-41d4-a716-446655440010",
-    "name": "Lily Clark",
-    "email": "lily.clark@example.com",
-    "password": "$2b$12$Ft3ABjqJwCZsIU4RENOQnoJ8fopF23pBuAklf8FBlgVnU2UeZ.bKO",
-    "neurodivergent_disorders": ["ADHD", "Dyslexia"],
-    "description": "Social worker dedicated to making the world a better place by supporting vulnerable communities.",
-    "occupation": "Social Worker",
-    "location": { "latitude": 47.606209, "longitude": -122.332069 },
-    "photo": "https://randomuser.me/api/portraits/women/10.jpg"
-  }
-]
+[{"id":"550e8400-e29b-41d4-a716-446655440010","name":"Lily Clark","email":"lily.clark@example.com","password":"$2b$12$Ft3ABjqJwCZsIU4RENOQnoJ8fopF23pBuAklf8FBlgVnU2UeZ.bKO","neurodivergent_disorders":["ADHD","Dyslexia"],"description":"Social worker dedicated to making the world a better place by supporting vulnerable communities.","occupation":"Social Worker","location":{"latitude":47.606209,"longitude":-122.332069},"photo":"https://randomuser.me/api/portraits/women/10.jpg"},{"id":"cf56fc01-9b57-4d70-bb74-538ac22e47ed","name":"Samantha Lee","email":"samantha.lee@example.com","neurodivergent_disorders":["Autism Spectrum Disorder"],"description":"Software engineer with a focus on backend systems. I enjoy coding and find peace in solving logical puzzles.","occupation":"Software Engineer","location":{"latitude":37.774929,"longitude":-122.419418},"photo":"https://randomuser.me/api/portraits/women/2.jpg"}]
