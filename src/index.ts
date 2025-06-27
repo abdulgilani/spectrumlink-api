@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use("/neurodivergent", neurodivergentList);
 app.use("/friends", friendsData);
-app.use("/friendRequest", friendRequestData);
+app.use("/friendRequestList", friendRequestData);
 app.use("/suggestion", suggestionData);
 
 app.listen(PORT, () => {

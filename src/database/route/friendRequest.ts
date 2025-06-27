@@ -18,7 +18,7 @@ router.get("/", async(req, res) => {
 router.delete("/:id", async(req, res): Promise<any> => {
     try{
         const friendRequestId = req.params.id;
-        const friendRequest = await knex('friendRequest').where({id: friendRequestId});
+        const friendRequest = await knex('friendRequest').where('friendRequest.id', {id: friendRequestId});
 
         if(!friendRequest){
             return res.status(404).json({ message: `FriendRequest ${friendRequestId} not found.`});
