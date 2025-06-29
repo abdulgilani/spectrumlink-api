@@ -24,7 +24,7 @@ router.delete("/:id", async(req, res): Promise<any> => {
             return res.status(404).json({ message: `FriendRequest ${friendRequestId} not found.`});
         }
 
-        await knex('friendRequest').where({id: friendRequestId}).del();
+        await knex('friendRequest').where('friendRequest.id', {id: friendRequestId}).del();
         return res.status(200).json(friendRequest);
     } catch (error){
         return res.status(500).json(error);

@@ -1,5 +1,6 @@
 import type {Knex} from "knex";
-import "dotenv/config";
+import dotenv from 'dotenv';
+dotenv.config({path: '../../.env'})
 
 // Update with your config settings.
 
@@ -11,7 +12,7 @@ const config: {[key: string]: Knex.Config} = {
       user: process.env.DB_USER,
       database: process.env.DB_NAME,
       password: process.env.DB_PASSWORD,
-    }
+    },
   },
   staging: {
     client: 'pg',
@@ -44,6 +45,5 @@ const config: {[key: string]: Knex.Config} = {
     }
   }
 };
-
 
 export default config;
